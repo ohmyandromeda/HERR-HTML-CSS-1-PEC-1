@@ -2,7 +2,7 @@
   "name": "pec-1",
   "version": "1.0.0",
   "source": "web/index.html",
-  "browserslist": "> 0.25%, last 2 versions, not dead",
+  "browserslist": "> 0.25%, last 5 versions, not dead",
   "scripts": {
     "parcel:dev": "parcel",
     "parcel:build": "parcel build",
