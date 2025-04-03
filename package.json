@@ -1,0 +1,24 @@
+{
+  "name": "pec-1",
+  "version": "1.0.0",
+  "source": "web/index.html",
+  "browserslist": "> 0.25%, last 2 versions, not dead",
+  "scripts": {
+    "parcel:dev": "parcel",
+    "parcel:build": "parcel build",
+    "clean": "rimraf dist .parcel-cache",
+    "start": "npm-run-all clean parcel:dev",
+    "build": "npm-run-all clean parcel:build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "parcel": "^2.14.4",
+    "postcss-mimic.css-data": "^0.0.4",
+    "postcss-tuesday.css-data": "^0.1.2",
+    "rimraf": "^6.0.1"
+  }
+}

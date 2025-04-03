@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Inicio</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="javascript/script.js" defer></script> 
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo_yacomer.png" alt="Logo de Y a Comer">
+                </a>
+            </div>
+            <nav class="nav">
+                <a href="index.html">Inicio</a>
+                <ul class="desplegable">
+                    <a href="#descubre">Tipos de cocina</a>
+                    <div class="desplegable-elementos">
+                        <a href="italiana.html"><li>Italiana</li></a>
+                        <a href="#"><li>Latinoamericana</li></a>
+                        <a href="#"><li>Americana</li></a>
+                        <a href="#"><li>Mediterránea</li></a>
+                        <a href="#"><li>Asiática</li></a>
+                    </div>
+                </ul>
+                <a href="#">Subir receta</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="barra-busqueda">
+            <input aria-label="Buscar recetas" type="text" id="buscar-palabra" placeholder="Buscar">
+        </div>
+        <div class="filtros-rapidos">
+            <button>Recetas rápidas</button>
+            <button>Vegetarianas</button>
+            <button>Recetas fáciles</button>
+            <button>Para compartir</button>
+        </div>
+        <section id="descubre" class="descubre">
+            <h2 >Descubre</h2>
+            <div class="categorias">
+                <div class="categoria">
+                    <a href="./italiana.html" class="categoria-link">
+                        <img src="./img/portada-cocina-italiana-pexels.jpg" alt="Italiana">
+                        <span>Italiana</span>
+                    </a>
+                </div>
+                <div class="categoria">
+                    <img src="./img/portada-cocina-latinoamericana-pexels.jpg" alt="Latinoamericana">
+                    <span>Latinoamericana</span>
+                </div>
+                <div class="categoria">
+                    <img src="./img/portada-cocina-americana-pexels.jpg" alt="Americana">
+                    <span>Americana</span>
+                </div>
+                <div class="categoria">
+                    <img src="./img/portada-cocina-mediterranea-pexels.jpg" alt="Mediterránea">
+                    <span>Mediterránea</span>
+                </div>
+                <div class="categoria">
+                    <img src="./img/portada-cocina-asiatica-pexels.jpg" alt="Asiática">
+                    <span>Asiática</span>
+                </div>
+            </div>
+        </section>
+        <section class="recomendadas">
+            <h2>Recomendados</h2>
+            <div class="recetas">
+                <div class="receta" data-receta="Arepas de pollo">
+                    <img src="img/arepas-de-pollo-pexels.jpg" alt="Arepas de pollo">
+                    <span>Arepas de pollo</span>
+                </div>
+                <div class="receta" data-receta="Paella valenciana">
+                    <img src="img/paella-valenciana-pexels.jpg" alt="Paella valenciana">
+                    <span>Paella valenciana</span>
+                </div>
+                <div class="receta" data-receta="Brownie de chocolate">
+                    <img src="img/brownie-pexels.jpg" alt="Brownie de chocolate">
+                    <span>Brownie de chocolate</span>
+                </div>
+                <div class="receta" data-receta="Arroz con curry">
+                    <img src="img/arroz-curry-pexels.jpg" alt="Arroz con curry" >
+                    <span>Arroz con curry</span>
+                </div>
+                <div class="receta" data-receta="Cookies de chocolate">
+                    <img src="img/cookies-pexels.jpg" alt="Cookies de chocolate" >
+                    <span>Cookies de chocolate</span>
+                </div>
+                <div class="receta" data-receta="Pollo al horno">
+                    <img src="img/pollo-asado-pexels.jpg" alt="Pollo al horno" >
+                    <span>Pollo al horno</span>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <p>UOC Marzo 2025. Andrea Esteve Herranz</p>
+            <a href="bibliografia.html" class="bibliografia">Bibliografía</a>
+        </div>
+    </footer>
+</body>
+</html>
