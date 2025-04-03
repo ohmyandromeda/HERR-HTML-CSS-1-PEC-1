@@ -1,3 +1,6 @@
+import { feather } from 'feather-icons'; 
+    feather.replace(); 
+
 const buscador = document.getElementById('buscar-palabra')
 const recetas = document.querySelectorAll('.receta')
 
