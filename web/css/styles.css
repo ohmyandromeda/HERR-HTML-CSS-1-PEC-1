@@ -32,9 +32,9 @@ header, main, footer {
     font-weight: bold;
 }
 
-.icono {
-    width: 24px;
-    height: 24px;
+svg {
+    width: 20px;
+    height: 20px;
 }
 
 .desplegable {

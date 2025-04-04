@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bibliografía</title>
     <link rel="stylesheet" href="css/styles.css">
-    
+    <script src ="../node_modules/feather-icons/dist/feather.js"></script>
 </head>
 <body>
     <header>
@@ -18,7 +18,9 @@
             <nav class="nav">
                 <a href="index.html">Inicio</a>
                 <ul class="desplegable">
-                    <a href="#descubre">Tipos de cocina</a>
+                    <div>
+                        <a href="#descubre">Tipos de cocina</a><i data-feather="chevron-down"> </i>       
+                   </div>
                     <div class="desplegable-elementos">
                         <a href="italiana.html"><li>Italiana</li></a>
                         <a href="#"><li>Latinoamericana</li></a>
@@ -123,8 +125,11 @@
     <footer>
         <div class="footer-container">
             <p>UOC Marzo 2025. Andrea Esteve Herranz</p>
-            <a href="bibliografia.html" class="bibliografia">Bibliografía</a>
+            <a href="bibliografia.html" class="bibliografia">Bibliografía <i data-feather="bookmark"></i></a>
         </div>
     </footer>
+    <script>
+        feather.replace();
+    </script>
 </body>
 </html>
