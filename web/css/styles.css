@@ -32,6 +32,11 @@ header, main, footer {
     font-weight: bold;
 }
 
+.icono {
+    width: 24px;
+    height: 24px;
+}
+
 .desplegable {
     position: relative;
     display: inline-block;

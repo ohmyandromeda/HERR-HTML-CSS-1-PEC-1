@@ -1,5 +1,9 @@
-import { feather } from 'feather-icons'; 
-    feather.replace(); 
+import { feather } from 'feather-icons';
+import feather from 'feather-icons';
+
+document.addEventListener('DOMContentLoaded', () => {
+  feather.replace();
+});
 
 const buscador = document.getElementById('buscar-palabra')
 const recetas = document.querySelectorAll('.receta')
