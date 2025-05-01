@@ -19,7 +19,8 @@
     "parcel": "^2.14.4",
     "postcss-mimic.css-data": "^0.0.4",
     "postcss-tuesday.css-data": "^0.1.2",
-    "rimraf": "^6.0.1"
+    "rimraf": "^6.0.1",
+    "sharp": "^0.33.5"
   },
   "dependencies": {
     "feather-icons": "^4.29.2"
