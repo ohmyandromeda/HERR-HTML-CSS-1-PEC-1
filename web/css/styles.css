@@ -21,6 +21,41 @@ header, main, footer {
     border-radius: 10px;
 }
 
+.configuracion {
+    background-color: #D9A273;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;        
+    display: flex;              
+    align-items: center;
+    justify-content: center;
+}
+
+.ajustes:hover {
+    animation: spin 6s linear infinite;
+    opacity: 0.8;
+    z-index: 0;
+}
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+.banner-inicio{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner-inicio img {
+    width: 50%;
+    clip-path: polygon(0% 25%, 75% 25%, 100% 50%, 75% 75%, 0% 75%);
+}
+
+.banner-inicio h1{
+    margin-left: 25px;
+}
 .logo img {
     height: 70px;
 }
@@ -330,6 +365,14 @@ footer {
         margin-right: 0px;
         width: 95%; 
     }
+
+    .banner-inicio h1{
+        font-size: medium;
+    }
+
+    .configuracion {
+        margin-top: 20px;
+    }
 }
 
 
@@ -386,5 +429,12 @@ footer {
         max-height: 80px;
     }
 
+    .banner-inicio h1{
+        font-size: medium;
+    }
+
+    .configuracion {
+        margin-top: 20px;
+    }
 
 }
