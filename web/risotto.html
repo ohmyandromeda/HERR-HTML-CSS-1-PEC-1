@@ -36,7 +36,11 @@
     <main>
         <section class="detalle">
             <h1><em lang="it">Risotto</em> con queso</h1>
-            <img src="./img/risotto-pexels.jpg" alt="Risotto con queso">
+            <picture>
+                <source media="(max-width: 767px)" srcset="img/risotto-pexels-detalle.jpg">
+                <source media="(max-width: 1023px)" srcset="./img/risotto-pexels-media.jpg">
+                <img src="./img/risotto-pexels.jpg" alt="Risotto con queso">
+            </picture>
             <div class="container-receta">
                 <div class="ingredientes">
                     <h2>Ingredientes (para 4 personas)</h2>

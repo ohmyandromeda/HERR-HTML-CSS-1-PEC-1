@@ -36,7 +36,11 @@
     <main>
         <section class="detalle">
             <h1>Espaguetis a la marinera</h1>
-            <img src="./img/espaguetis-marinera-pexels.jpg" alt="Espaguetis a la marinera">
+            <picture>
+                <source media="(max-width: 767px)" srcset="img/espaguetis-marinera-pexels-detalle.jpg">
+                <source media="(max-width: 1023px)" srcset="img/espaguetis-marinera-pexels-media.jpg">
+                <img src="./img/espaguetis-marinera-pexels.jpg" alt="Espaguetis a la marinera">
+            </picture>
             <div class="container-receta">
                 <div class="ingredientes">
                     <h2>Ingredientes (para 2 personas)</h2>
