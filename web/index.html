@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página de Inicio</title>
     <link rel="stylesheet" href="./css/styles.css">
-    <script src="javascript/script.js" defer></script> 
     <script src ="../node_modules/feather-icons/dist/feather.js"></script>
     <script src="../sharp.config.json"></script>
 </head>
@@ -52,7 +51,7 @@
             <button>Para compartir</button>
         </div>
         <div class="banner-inicio">
-            <img src="./img/comunidad-cocina-pexels.jpg" alt="Mesa llena de personas celebrando mientras comen">
+            <img src="./img/comunidad-cocina-pexels.jpg" alt="Mesa llena de personas celebrando mientras comen" loading="lazy">
         <h1>Cocina, comparte... y a comer!</h1>
         </div>
         <section id="descubre" class="descubre">
@@ -60,24 +59,24 @@
             <div class="categorias">
                 <div class="categoria">
                     <a href="./italiana.html" class="categoria-link">
-                        <img src="./img/portada-cocina-italiana-pexels.jpg" alt="Italiana">
+                        <img src="./img/portada-cocina-italiana-pexels.jpg" alt="Italiana" loading="lazy">
                         <span>Italiana</span>
                     </a>
                 </div>
                 <div class="categoria">
-                    <img src="./img/portada-cocina-latinoamericana-pexels.jpg" alt="Latinoamericana">
+                    <img src="./img/portada-cocina-latinoamericana-pexels.jpg" alt="Latinoamericana" loading="lazy">
                     <span>Latinoamericana</span>
                 </div>
                 <div class="categoria">
-                    <img src="./img/portada-cocina-americana-pexels.jpg" alt="Americana">
+                    <img src="./img/portada-cocina-americana-pexels.jpg" alt="Americana" loading="lazy">
                     <span>Americana</span>
                 </div>
                 <div class="categoria">
-                    <img src="./img/portada-cocina-mediterranea-pexels.jpg" alt="Mediterránea">
+                    <img src="./img/portada-cocina-mediterranea-pexels.jpg" alt="Mediterránea" loading="lazy">
                     <span>Mediterránea</span>
                 </div>
                 <div class="categoria">
-                    <img src="./img/portada-cocina-asiatica-pexels.jpg" alt="Asiática">
+                    <img src="./img/portada-cocina-asiatica-pexels.jpg" alt="Asiática" loading="lazy">
                     <span>Asiática</span>
                 </div>
             </div>
@@ -86,27 +85,27 @@
             <h2>Recomendados</h2>
             <div class="recetas">
                 <div class="receta" data-receta="Arepas de pollo">
-                    <img src="img/arepas-de-pollo-pexels.jpg" alt="Arepas de pollo">
+                    <img src="img/arepas-de-pollo-pexels.jpg" alt="Arepas de pollo" loading="lazy">
                     <span>Arepas de pollo</span>
                 </div>
                 <div class="receta" data-receta="Paella valenciana">
-                    <img src="img/paella-valenciana-pexels.jpg" alt="Paella valenciana">
+                    <img src="img/paella-valenciana-pexels.jpg" alt="Paella valenciana" loading="lazy">
                     <span>Paella valenciana</span>
                 </div>
                 <div class="receta" data-receta="Brownie de chocolate">
-                    <img src="img/brownie-pexels.jpg" alt="Brownie de chocolate">
+                    <img src="img/brownie-pexels.jpg" alt="Brownie de chocolate" loading="lazy">
                     <span>Brownie de chocolate</span>
                 </div>
                 <div class="receta" data-receta="Arroz con curry">
-                    <img src="img/arroz-curry-pexels.jpg" alt="Arroz con curry" >
+                    <img src="img/arroz-curry-pexels.jpg" alt="Arroz con curry" loading="lazy">
                     <span>Arroz con curry</span>
                 </div>
                 <div class="receta" data-receta="Cookies de chocolate">
-                    <img src="img/cookies-pexels.jpg" alt="Cookies de chocolate" >
+                    <img src="img/cookies-pexels.jpg" alt="Cookies de chocolate" loading="lazy">
                     <span>Cookies de chocolate</span>
                 </div>
                 <div class="receta" data-receta="Pollo al horno">
-                    <img src="img/pollo-asado-pexels.jpg" alt="Pollo al horno" >
+                    <img src="img/pollo-asado-pexels.jpg" alt="Pollo al horno" loading="lazy">
                     <span>Pollo al horno</span>
                 </div>
             </div>
@@ -121,5 +120,7 @@
     <script>
         feather.replace();
     </script>
+    <script type="module" src="./javascript/modulos/buscador.js"></script> 
+
 </body>
 </html>
