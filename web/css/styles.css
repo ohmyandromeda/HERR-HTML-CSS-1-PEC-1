@@ -6,6 +6,10 @@ body {
     color: #5C3D2E;
 }
 
+img{
+    aspect-ratio: 4 / 3;
+}
+
 header, main, footer {
     padding: 20px;
     max-width: 1200px;
@@ -30,6 +34,7 @@ header, main, footer {
     align-items: center;
     justify-content: center;
 }
+
 
 .ajustes:hover {
     animation: spin 6s linear infinite;
@@ -298,6 +303,8 @@ h1{
     object-fit: cover; 
     object-position: center center; 
     max-height: 400px;
+    aspect-ratio: 4 / 3;
+
 } 
 
 .detalle p {
