@@ -65,7 +65,15 @@ header, main, footer {
     height: 70px;
 }
 
-.nav a {
+nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+
+}
+
+nav li a{
     color: #5C3D2E;
     text-decoration: none;
     margin: 0 15px;
@@ -418,7 +426,7 @@ h1{
     border-radius: 20px;
     font-size: 14px;
     text-decoration: none;
-    color: white;
+    color: #5C3D2E;
     cursor: pointer;
 }
 
